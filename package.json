@@ -1,0 +1,30 @@
+{
+  "name": "Scribe",
+  "version": "0.5.0",
+  "description": "Lightweight NodeJS Logging",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bluejamesbond/Scribe.js.git"
+  },
+  "keywords": [
+    "logging",
+    "console",
+    "file",
+    "logger"
+  ],
+  "author": "Mathew Kurian",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/bluejamesbond/Scribe.js/issues"
+  },
+  "homepage": "https://github.com/bluejamesbond/Scribe.js",
+  "dependencies": {
+    "colors": "~0.6.2",
+    "moment": "~2.6.0",
+    "mkdirp": "~0.5.0"
+  }
+}
