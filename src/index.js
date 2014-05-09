@@ -16,7 +16,7 @@ var loggers = {
             // File storage?
             file: true,
             // Prinout to console?
-            console: true,
+            console: true
         },
         info: {
             file: true,
@@ -28,7 +28,7 @@ var loggers = {
         },
         warn: {
             file: true,
-            console: true,
+            console: true
         },
         realtime: {
             file: true,
@@ -64,7 +64,7 @@ var loggers = {
         preIndent : 5,
         divider : ' : ',
         defaultTag : '[' + APP_NAME + ']', 
-        userName : 'unkown'
+        userName : 'unknown'
     }
 };
 
@@ -111,7 +111,7 @@ var overload = function() {
         for(var z = 0; z < sp; z++)
             s += ' ';
         return s;
-    }
+    };
 
     // Authorize and overload the loggers
     for (var m in loggers.types) {

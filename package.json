@@ -17,6 +17,10 @@
     "logger"
   ],
   "author": "Mathew Kurian",
+  "contributors": [{
+      "name": "Gautham Chandra",
+      "email": "gautham.chandra@live.com"
+  }],
   "license": "Apache",
   "bugs": {
     "url": "https://github.com/bluejamesbond/Scribe.js/issues"
